@@ -1,0 +1,117 @@
+.l-main-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    row-gap: 20px;
+}   
+.l-top-container{
+    display: flex;
+    column-gap: 30px;
+}
+.transcript-container{
+    background-color: white;
+    height: 650px;
+    flex: 2;
+    color: #1B1D1C;
+    font-weight: 600;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.upper-row{
+    display: flex;
+    column-gap: 25px;
+    padding-top: 10px;
+}
+.i-card-title{
+    font-family: Montserrat;
+    color: #ff414e;
+    font-size: 20px;
+    font-weight: 900;
+}
+.i-card-description{
+    color: gray;
+}
+.timeline-container{
+    background-color: white;
+    height: 650px;
+    flex: 1;
+    overflow-y: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.l-middle-container{
+    display: flex;
+    border-radius: 10px;
+    column-gap: 30px;
+
+}
+
+.summary-container{
+    height: 250px;
+    background-color: white;
+    flex: 1;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-align: justify;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.annoucement-container{
+    height: 200px;
+    background-color: white;
+    flex: 1;    padding: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.questions-container{
+    padding: 30px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ 
+.section-name{
+    font-size: 30px;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.header{
+    height: 80px;
+    background-color: #1B1D1C;
+    display: flex;
+    align-items: center;
+}
+.header > img{
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+
+}
+.logo-text{
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.highlight{
+    background-color: #ff414e57;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}

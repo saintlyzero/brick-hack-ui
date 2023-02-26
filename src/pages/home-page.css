@@ -1,0 +1,112 @@
+.home-page {
+    /* background-color: #ffde22; */
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background: rgb(255,161,32);
+    background: linear-gradient(341deg, rgba(255,161,32,1) 21%, rgba(255,222,34,1) 95%);
+    
+  }
+  .top-logo {
+    padding-left: 30px;
+  }
+  .top-logo > img {
+    height: 150px;
+    width: 150px;
+  }
+  .top-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  .top-left-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-title {
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 600;
+    line-height: 78px;
+    width: 950px;
+    color: #1B1D1C;
+
+  }
+  .main-description {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 758px;
+    margin-top: 10px;
+    color: #1B1D1C;
+  }
+  
+  .top-container > img {
+    height: 400px;
+    width: 525px;
+    margin-bottom: 10px;
+  }
+  
+  .bottom-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .movie-card {
+    height: 255px;
+    width: 297px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-size: cover;
+    background-color: #FF411C;
+  
+    border: 1px solid #1B1D1C;
+    border-radius: 16px;
+  
+    box-shadow: 8px 8px #FF411C;
+    transition: 0.3s;
+  }
+  
+  .movie-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.829);
+  
+    /* transform: translate(0, -10px); */
+  }
+  .card-up {
+    flex: 1;
+  }
+  .card-down {
+    flex: none;
+  }
+  
+  .card-movie-title {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #e0e0e0;
+  }
+  .card-movie-description {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    color: white;
+  }
+  
+  .card-movie-date{
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 12px;
+    color: white;
+  }
+  
