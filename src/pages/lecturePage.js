@@ -1,12 +1,16 @@
 import "./lecture-page.css";
 import { useEffect, useState } from "react";
-import { INSIGHTS_API } from "../constants";
+import { INSIGHTS_API, MOCK_LECTURE_RESPONSE } from "../constants";
 import BasicTimeline from "../components/timelineComponent";
 import { useHistory } from "react-router-dom";
 
 const fetchInsights = async (setTranscript, setOutline, setSummary, setQuiz, setAnnouncements) => {
-        const response = await fetch(INSIGHTS_API);
-        const insights = await response.json();
+        
+        // uncomment when server is active
+        // const response = await fetch(INSIGHTS_API);
+        // const insights = await response.json();
+
+        const insights = MOCK_LECTURE_RESPONSE;
         setTranscript(insights.transcript);
         setOutline(insights.outline);
         setSummary(insights.summary);

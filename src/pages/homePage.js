@@ -1,6 +1,6 @@
 import "./home-page.css";
 import { useHistory } from "react-router-dom";
-import { BASE_URL } from "../constants";
+import { BASE_URL, MOCK_LECTURES_RESPONSE } from "../constants";
 
 import { useEffect, useState } from "react";
 
@@ -11,7 +11,6 @@ const lectureCard = (lecture, history) => {
       className="movie-card"
       style={{ backgroundImage: background }}
       onClick={() => {
-        // fetchScript();
         history.push(`/lecture?id=${lecture.id}`);
       }}
       key={lecture.id}
@@ -29,12 +28,12 @@ const lectureCard = (lecture, history) => {
 };
 const HomePage = () => {
   const history = useHistory();
-  // const [lectures, setLectures] = useState(LECTURES);
   const [lectures, setLectures] = useState([]);
 
   const fetchLectures = async (setLectures) => {
-    const response = await fetch(BASE_URL);
-    const lectures = await response.json();
+    // const response = await fetch(BASE_URL);
+    // const lectures = await response.json();
+    const lectures = MOCK_LECTURES_RESPONSE
     setLectures(lectures.slice(0, 3));
   }
 
