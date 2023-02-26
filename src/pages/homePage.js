@@ -1,8 +1,7 @@
 import "./home-page.css";
 import { useHistory } from "react-router-dom";
-import { LECTURES, BASE_URL } from "../constants";
+import { BASE_URL } from "../constants";
 
-// import { fetchMovies, fetchScript } from "../utils";
 import { useEffect, useState } from "react";
 
 const lectureCard = (lecture, history) => {
