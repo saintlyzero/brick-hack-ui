@@ -1,7 +1,7 @@
 /* width */
 
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
   height: 177px;
 
   background: #010f19;
@@ -36,11 +36,8 @@ body {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  /* background-color: #ffde22; */
   font-family: Open Sans;
-
-  background: rgb(255,161,32);
-  background: linear-gradient(341deg, rgba(255,161,32,1) 21%, rgba(255,222,34,1) 95%);
+  background: #ffde22cc;
 
 }
  

@@ -1,3 +1,8 @@
+// export const INSIGHTS_API = "https://api.jsonbin.io/v3/qs/63fb13b9ace6f33a22e5a8b7"
+// const BASE_URL = "https://78a4-68-180-86-203.ngrok.io"
+export const BASE_URL = "http://127.0.0.1:8000"
+export const INSIGHTS_API = `${BASE_URL}/lecture?id=2` 
+
 export const LECTURES = [{
         "id": 1,
         "name": "Operating Systems",
